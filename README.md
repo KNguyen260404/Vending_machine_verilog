@@ -117,8 +117,7 @@ IDLE → MONEY_DEPOSIT → PRODUCT_SELECT → [không đủ tiền → MONEY_DEP
 
 ```
 Vending_machine_verilog/
-├── README.md                     
-├── Vending_Machine.md           
+├── README.md                             
 ├── Money_counter/
 │   ├── Money_counter.v           
 │   └── Money_counter_tb.v       
