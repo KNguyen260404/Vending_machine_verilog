@@ -1,0 +1,186 @@
+$date
+	Fri Jun 13 08:10:34 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module change_calculator_tb $end
+$var wire 1 ! valid_transaction $end
+$var wire 5 " change_amount [4:0] $end
+$var reg 1 # calculate $end
+$var reg 1 $ clk $end
+$var reg 5 % current_amount [4:0] $end
+$var reg 5 & product_price [4:0] $end
+$var reg 1 ' reset $end
+$scope module uut $end
+$var wire 1 # calculate $end
+$var wire 1 $ clk $end
+$var wire 5 ( current_amount [4:0] $end
+$var wire 5 ) product_price [4:0] $end
+$var wire 1 ' reset $end
+$var reg 5 * change_amount [4:0] $end
+$var reg 1 ! valid_transaction $end
+$upscope $end
+$scope task test_change $end
+$var reg 5 + amount [4:0] $end
+$var reg 5 , expected_change [4:0] $end
+$var reg 1 - expected_valid $end
+$var reg 5 . price [4:0] $end
+$var reg 201 / test_name [200:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx /
+bx .
+x-
+bx ,
+bx +
+bx *
+b0 )
+b0 (
+1'
+b0 &
+b0 %
+0$
+0#
+bx "
+x!
+$end
+#10
+0!
+b0 "
+b0 *
+1$
+#20
+0$
+#30
+1$
+#40
+0$
+#50
+0'
+1$
+#60
+0$
+#70
+1$
+#80
+0$
+#90
+1!
+1#
+b1111 &
+b1111 )
+b1111 %
+b1111 (
+1$
+#100
+0$
+#110
+0#
+1$
+#120
+0$
+#130
+1$
+#140
+0$
+#150
+1$
+#160
+0$
+#170
+b101 "
+b101 *
+1#
+b10100 %
+b10100 (
+1$
+#180
+0$
+#190
+0#
+1$
+#200
+0$
+#210
+1$
+#220
+0$
+#230
+1$
+#240
+0$
+#250
+0!
+b1010 "
+b1010 *
+1#
+b1010 %
+b1010 (
+1$
+#260
+0$
+#270
+0#
+1$
+#280
+0$
+#290
+1$
+#300
+0$
+#310
+1$
+#320
+0$
+#330
+1#
+b0 &
+b0 )
+1$
+#340
+0$
+#350
+0#
+1$
+#360
+0$
+#370
+1$
+#380
+0$
+#390
+1$
+#400
+0$
+#410
+1$
+#420
+0$
+#430
+1$
+#440
+0$
+#450
+1$
+#460
+0$
+#470
+1$
+#480
+0$
+#490
+1$
+#500
+0$
+#510
+1$
