@@ -146,7 +146,7 @@ Vending_machine_verilog/
 
 ### 1. Money Counter Module
 
-![Money Counter Module Diagram](./image/money_counter.png)
+![Money Counter Module Diagram](./image/money_counter.jpg)
 
 ```verilog
 module money_counter (
@@ -177,12 +177,12 @@ endmodule
 ```
 
 #### Kết quả mô phỏng Money Counter Module:
-![Money Counter Waveform](./image/money_counter_waveform.png)
-![Money Counter Simulation](./image/money_counter_simulation.png)
+![Money Counter Waveform](./image/money_counter_waveform.jpg)
+![Money Counter Simulation](./image/Money_counter_simulation.png)
 
 ### 2. Product Selection Module
 
-![Product Selection Module Diagram](./image/product_selection.png)
+![Product Selection Module Diagram](./image/product_selection.jpg)
 
 ```verilog
 module product_selection (
@@ -315,10 +315,6 @@ module display_module (
     end
 endmodule
 ```
-
-#### Kết quả mô phỏng Display Module:
-![Display Module Waveform](./image/display_module_waveform.png)
-![Display Module Simulation](./image/display_module_simulation.png)
 
 ### 4. Change Calculator Module
 
@@ -601,8 +597,8 @@ endmodule
 ```
 
 #### Kết quả mô phỏng hệ thống tổng thể:
-![Vending Machine System Waveform](./image/vending_machine_system_waveform.png)
-![Vending Machine System Simulation](./image/vending_machine_system_simulation.png)
+![Vending Machine System Waveform](./image/vending_machine_waveform.png)
+![Vending Machine System Simulation](./image/vending_machine_simulation.png)
 
 ## Hướng dẫn chạy mô phỏng và waveform
 
