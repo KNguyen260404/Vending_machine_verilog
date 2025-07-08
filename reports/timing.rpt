@@ -1,0 +1,66 @@
+Warning: Design 'Vending_machine' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : Vending_machine
+Version: W-2024.09-SP3
+Date   : Tue Jul  8 16:12:30 2025
+****************************************
+
+Operating Conditions: ff0p88v125c   Library: saed14rvt_ff0p88v125c
+Wire Load Model Mode: top
+
+  Startpoint: fsm_controller_inst/current_state_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: money_counter_inst/total_amount_reg[4]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Vending_machine    ForQA                 saed14rvt_ff0p88v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  fsm_controller_inst/current_state_reg[0]/CK (SAEDRVT14_FDPRBQ_V2_1)
+                                                          0.00       0.00 r
+  fsm_controller_inst/current_state_reg[0]/Q (SAEDRVT14_FDPRBQ_V2_1)
+                                                          0.05       0.05 r
+  fsm_controller_inst/U48/X (SAEDRVT14_NR2_MM_0P5)        0.66       0.72 f
+  fsm_controller_inst/U14/X (SAEDRVT14_NR4_0P75)          0.06       0.78 r
+  fsm_controller_inst/reset_money (fsm_controller)        0.00       0.78 r
+  U2/X (SAEDRVT14_OR2_MM_0P5)                             0.02       0.80 r
+  money_counter_inst/reset (money_counter)                0.00       0.80 r
+  money_counter_inst/U6/X (SAEDRVT14_INV_1P5)             0.02       0.81 f
+  money_counter_inst/U5/X (SAEDRVT14_BUF_ECO_1)           0.02       0.83 f
+  money_counter_inst/U31/X (SAEDRVT14_INV_S_0P5)          0.01       0.84 r
+  money_counter_inst/U30/X (SAEDRVT14_INV_S_0P5)          0.01       0.85 f
+  money_counter_inst/U27/X (SAEDRVT14_OAI21_0P5)          0.02       0.87 r
+  money_counter_inst/U10/X (SAEDRVT14_BUF_ECO_1)          0.02       0.89 r
+  money_counter_inst/U29/X (SAEDRVT14_ND2_CDC_1)          0.03       0.92 f
+  money_counter_inst/U7/X (SAEDRVT14_OAI22_0P75)          0.02       0.94 r
+  money_counter_inst/total_amount_reg[4]/D (SAEDRVT14_FDP_V2LP_1)
+                                                          0.01       0.95 r
+  data arrival time                                                  0.95
+
+  clock clk (rise edge)                                  10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  clock uncertainty                                      -0.20       9.80
+  money_counter_inst/total_amount_reg[4]/CK (SAEDRVT14_FDP_V2LP_1)
+                                                          0.00       9.80 r
+  library setup time                                     -0.02       9.78
+  data required time                                                 9.78
+  --------------------------------------------------------------------------
+  data required time                                                 9.78
+  data arrival time                                                 -0.95
+  --------------------------------------------------------------------------
+  slack (MET)                                                        8.83
+
+
+1
